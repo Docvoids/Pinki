@@ -2,7 +2,7 @@ import telebot
 import webbrowser
 from telebot import types
 
-bot=telebot.TeleBot('6830689745:AAFyWR7zuWFIiA9JbOcz2QXf6_UkUfzZjaA')
+bot=telebot.TeleBot('not for you')
 @bot.message_handler(commands=['hello!'])
 def hello(messege):
     bot.send_message(messege.chat.id, '<b>Hello!(UwU)</b>', parse_mode='html')
